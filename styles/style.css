@@ -1,0 +1,341 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+/* reusalbe  style*/
+/* button common style */
+.btn-style {
+  background: #fd6e0a;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.btn-style:hover {
+  background: white;
+  color: #fd6e0a;
+  border: 1px solid #fd6e0a;
+  cursor: pointer;
+}
+
+.container-width {
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* navber/head section styling */
+nav {
+  /* height: 30px; */
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  /* justify-content: space-around; */
+  gap: 40px;
+}
+.nav-links a {
+  text-decoration: none;
+  color: #474747;
+  font-size: 1.2rem;
+  /* padding: 5px; */
+}
+
+.logo h2 {
+  font-weight: 800;
+  font-size: 32px;
+}
+
+#logo-letter-customize {
+  color: #fd6e0a;
+}
+
+/* navber/head section styling end */
+
+/* hero section styling */
+.hero-parent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* hero right */
+.hero-right .hero-p-1 {
+  font-weight: 600;
+  color: #474747;
+  font-size: 1.6rem;
+}
+
+.hero-right h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.hero-right p {
+  color: #474747;
+}
+
+.hero-left-btns {
+  margin-top: 18px;
+}
+
+.hero-left-btns button {
+  margin-right: 10px;
+}
+
+.hero-right .btn-2 {
+  background: white;
+  color: #fd6e0a;
+  border: 1px solid #fd6e0a;
+  border-radius: 8px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.bg-color {
+  background: #fff8f3;
+}
+
+/* hero left */
+img {
+  max-width: 100%;
+}
+
+/* about section */
+
+.about-container {
+  margin-top: 80px;
+  text-align: center;
+  /* padding: 100px; */
+  border-radius: 10px;
+}
+
+.about-content {
+  max-width: 800px;
+  margin: auto;
+  padding: 100px;
+}
+
+.about-parent .about-heading,
+.about-text {
+  margin-bottom: 25px;
+}
+.about-text {
+  color: #474747;
+}
+
+.title {
+  color: #474747;
+}
+
+.box-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.box {
+  background: hsl(25, 63%, 95%);
+  padding: 20px;
+}
+
+/* what i do section */
+.what-i-do {
+  margin-top: 50px;
+}
+
+.what-i-do-text {
+  text-align: center;
+}
+
+.what-i-do-text {
+  padding: 60px;
+}
+
+.card-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 25px;
+  text-align: left;
+}
+
+.card h3 {
+  margin-top: 10px;
+}
+
+.card p {
+  margin-top: 20px;
+  line-height: 30px;
+  color: #474747;
+}
+.card {
+  height: 300px;
+  padding: 30px;
+}
+
+.card {
+  /* box-shadow: offset-x offset-y blur spread color; */
+  box-shadow: 0 4px 8px 0 rgb(0, 0, 0, 0.2);
+}
+
+.card:hover {
+  background: rgb(0, 0, 0, 0.03);
+  cursor: pointer;
+}
+
+/* summary section */
+
+.Resume-section {
+  margin-top: 80px;
+}
+
+.Resume-section div h1 {
+  text-align: center;
+}
+
+.summary-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: left;
+}
+
+.summary-heading-div {
+  margin-top: 70px;
+  margin-bottom: 20px;
+}
+
+.right-div,
+.left-div {
+  margin-bottom: 30px;
+}
+
+.right-div p,
+.left-div p {
+  margin-bottom: 10px;
+  color: #474747;
+}
+
+/* gallery section */
+.gallery-container {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.gallery-container > div h1 {
+  margin-bottom: 40px;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  grid-auto-rows: 250px;
+  grid-template-areas:
+    "one two three"
+    "four two six"
+    " four five six";
+}
+
+.gallery img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.image-1 {
+  grid-area: one;
+}
+
+.image-2 {
+  grid-area: two;
+}
+
+.image-3 {
+  grid-area: three;
+}
+
+.image-4 {
+  grid-area: four;
+}
+
+.image-5 {
+  grid-area: five;
+}
+
+.image-6 {
+  grid-area: six;
+}
+
+/* footer section */
+footer {
+  margin-top: 100px;
+}
+
+.footer-item-container {
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 200px;
+  padding: 100px 0px;
+}
+
+/* footer right side */
+footer form input,
+footer form textarea,
+footer .form-container h3 {
+  width: 100%;
+  /* height: 50px; */
+  margin-bottom: 10px;
+  display: block;
+  border: none;
+  padding: 8px 16px;
+  background-color: white;
+}
+footer .form-container h3 {
+  background: none;
+  font-size: 2rem;
+}
+
+.form-container {
+  text-align: left;
+}
+footer form textarea {
+  margin-bottom: 50px;
+}
+form input {
+  height: 50px;
+}
+
+footer form {
+  padding: 20px;
+}
+
+.footer-left-container {
+  text-align: left;
+}
+
+.footer-item-containe p {
+  color: red;
+}
+
+/* footer let side */
+.footer-left-container h3{
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.footer-left-container p{
+  margin-bottom: 10px;
+}
